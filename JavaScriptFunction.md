@@ -75,7 +75,7 @@
 ### .prepend()
 * 컨텐츠를 선택된 요소 내부의 시작부분에서 삽입
 * 문법은 .append() 와 동일.
-* ex) 결과 ---> <div id="testDiv"><div id="insertDiv"></div><div id="..."></div></div>
+* ex) 결과 --->  <!--<div id=testDiv"><div id="insertDiv"></div><div id="..."></div></div> --!>
 
 ### .after()
 * 선택한 요소 뒤에 컨텐츠 삽입
