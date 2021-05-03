@@ -1,4 +1,4 @@
-#AJAX
+# AJAX
 
 ## AJAX란 무엇인가
 * AJAX는 XML에 기반한 종합 기술로 비동기 자바스크립트 XML(Asynchronous javascript and xml)을 줄인 말로 자바스크립트로 http 요청을 보내서 xml 응답을 받아 사용하는 기술이다.
