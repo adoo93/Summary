@@ -1,0 +1,5 @@
+# 어노테이션
+
+### @RequestBody
+* Http 요청의 Body 내용을 Java Object로 변환시켜주는 역할을 한다. ※Java Object --> Json이나 XML형식들의 데이터를 Jackson등의 메세지 컨버터를 활용하여 변환시켜준다.
+* 
