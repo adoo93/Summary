@@ -63,7 +63,7 @@
 * attr()에 비해 실행속도가 약 2.5배 빠르다.
 * ex) 1.checkbox 상태 변경 --> $(":checkbox").porp("checked",true);
      
-     2.combobox disabled 속성의 true,false 상태 변경 --> $("#combobox").prop('disabled',true);
+      2.combobox disabled 속성의 true,false 상태 변경 --> $("#combobox").prop('disabled',true);
 
 * attr()은 요소의 현재 html의 원래 값을 제공하므로 javascript,jquery를 통해 수정된 요소의 값을 가져와야 할때는 prop()를 사용하는 것이 좋다.
 
