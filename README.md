@@ -5,7 +5,7 @@
 * 사용자와 DB사이에서 사용자의 요구에 따라 데이터를 생성해주고 DB를 관리해주는 소프트웨어이다.
 * DBMS는 데이터를 계층 또는 탐색 형식으로 저장한다. 파일 시스템을 사용해 저장하며, 따라서 테이블 간에는 아무런 관계가 없다.
 * 데이터에 대한 많은 보안을 제공하지 않으며 정규화를 수행 할 수 없어 데이터는 높은 중복성을 가질 수도 있다.
-* sybase,dbase 및 Microsoft Access는 DBMS읭 몇가지 예다.
+* sybase,dbase 및 Microsoft Access는 DBMS의 몇가지 예다.
 
 ### RDB (Relational DataBase)
 * 우선 RDB는 관계형 데이터 모델에 기초를 둔 데이터베이스이다.
