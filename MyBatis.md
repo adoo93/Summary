@@ -30,5 +30,5 @@
   resultType, parameterType의 경우 클래스의 alias나 풀 패키지를 포함한 클래스명으로 설정하고, 변수의 기본형으로도 사용할 수 있다.
   
 ```<select id="getDate" resulttype="java.lang.String" parameterType="java.lang.String">```<br>
-```SELECT id FROM MEMBER WHERE id = #{id}```<br> ```</select>```
+&nbsp;&nbsp;```SELECT id FROM MEMBER WHERE id = #{id}```<br> ```</select>```
 * resultType은 SELECT 구문의 id값의 타입, parameterType은 매개변수로 전달되는 #{id}의 타입을 말한다.
