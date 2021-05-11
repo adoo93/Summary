@@ -68,8 +68,10 @@
 
 ## 메소드
 
-```jQuery("#grid_id").jqGridMethod( parameter1, ... parameterN );```<br>
-```ex)jQuery("#grid_id).jqGrid("setGridParam",{...}).jqGrid("hideCol","somecol").trigger("reloadGrid")```
+```
+jQuery("#grid_id").jqGridMethod( parameter1, ... parameterN );
+ex)jQuery("#grid_id).jqGrid("setGridParam",{...}).jqGrid("hideCol","somecol").trigger("reloadGrid")
+```
 * grid_id는 그리드가 설정된 ID이다.
 * jqGrid는 그리드의 인스턴스이다.
 * jqGridMethod는 그리드에서 제공하는 메소드이다.
@@ -84,13 +86,15 @@
 |position|데이터가 추가될 위치를 정해준다. 'first','last','before','after' 4가지의 속성이 있다.|
 |srcRowId|position의 값이 'before','after'일때 설정해 준다. ID값이 들어온다.|
 
-``` var addData = { ```<br>
-&nbsp;&nbsp;```"id" : "006",```<br>
-&nbsp;&nbsp;```"name":"영진킴",```<br>
-&nbsp;&nbsp;```"age":"26",```<br>
-&nbsp;&nbsp;```"sex":"male",```<br>
-&nbsp;&nbsp;```"position":"사원"```<br>
-```}```<br>
+```
+var addData = {
+    "id" : "006",
+    "name" : "영진킴",
+    "age" : "26",
+    "sex" : "male",
+    "position" : "사원"
+}
+```
 ✔ befor 3.6v <br>
 ```$Grid.addRowData('006',addData,'after','002');```<br>
 ✔ after 3.6v <br>
@@ -102,12 +106,18 @@
 * selarrrow : 여러 행을 선택하였을 때 각각의 ID를 가지고 온다.
 
 ✔ before 3.6v <br>
-```var selRowId = $Grid.getGridParam('selrow');``` <br>
-```var selRowIds = $Grid.getGridParam('selarrrow');``` <br>
+```
+var selRowId = $Grid.getGridParam('selrow');
+var selRowIds = $Grid.getGridParam('selarrrow');
+```
 <br>
+
 ✔ after 3.6v <br>
-```var selRowId = $Grid.jqGrid('getGridParam','selrow');``` <br>
-```var selRowIds = $Grid.jqGrid('getGridParam','selarrrow);```<br>
+```
+var selRowId = $Grid.jqGrid('getGridParam','selrow');
+var selRowIds = $Grid.jqGrid('getGridParam','selarrrow);
+```
+
 
 ### __setGridParam()__
 * 그리드 options에 해당하는 값을 수정할 수 있다. 대표적으로 postData,url이 자주 사용된다. 또 setGridParam 메소드는 위에서 설명한 trigger메소드와 같이 자주 사용된다.
